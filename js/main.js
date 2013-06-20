@@ -83,7 +83,7 @@ EventList.prototype = new Array();
 
 var eventList = new EventList();
 
-$.getJSON('../events.json', function(data) {
+$.getJSON('./events.json', function(data) {
     console.log(data);
     $.each(data.events, function(i, e){
         eventList.push(new Event(e));
