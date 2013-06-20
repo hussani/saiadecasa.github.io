@@ -1,0 +1,45 @@
+{
+    "events": [
+        {
+            "name": "Mozilla Tech Day @ Faculdade BandTec",
+            "date": "June 15, 2013 09:00",
+            "local": {
+                "name": "Faculdade BandTec",
+                "url": "http://www.bandtec.com.br/"
+            },
+            "tags": ["web", "mozilla"],
+            "registration": {
+                "name": "Mozilla Tech Day - Eventbrite",
+                "url": "http://mozillatechday.eventbrite.com/"
+            },
+            "technology": ["javascript"]
+        },
+        {
+            "name": "Transparência HackDay Transporte Público",
+            "date": "June 17, 2013",
+            "local": {
+                "name": "A definir"
+            },
+            "registration": {
+                "name": "Transparência HackDay Transporte Público",
+                "url": "https://www.facebook.com/events/1376887065858589/"
+            },
+            "technology": ["javascript"]
+        },
+        {
+            "name": "PHPUBSP @ Tribeca Pub",
+            "date": "June 25, 2013 20:00",
+            "local": {
+                "name": "Tribeca Pub",
+                "url": "http://www.tribecapub.com/",
+                "address": "Rua Ramos Batista, 378 - Vila Olímpia, São Paulo , SP"
+            },
+            "tags": ["pub", "php", "phpsp"],
+            "registration": {
+                "name": "Google +",
+                "url": "https://plus.google.com/communities/108495352672468069896/events"
+            },
+            "technology": ["php"]
+        }
+    ]
+}
