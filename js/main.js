@@ -19,13 +19,16 @@ function Event(data){
             html += "<li><b>Horário:</b> " + this.getTime() + "</li>";
         }
 
-        html += "<li><b>Linguagem:</b> "+ this.technology +"</li>";
+        html += "<li><b>Local:</b> "+ this.getLocal() +"</li>";
+
+        if (typeof this.technology !== 'undefined') {
+            html += "<li><b>Linguagem:</b> "+ this.technology +"</li>";
+        };
 
         if(typeof this.getTags() != 'undefined'){
             html += "<li><b>Tags:</b> "+ this.getTags() +"</li>";
         }
 
-        html += "<li><b>Local:</b> "+ this.getLocal() +"</li>";
 
         html += "</ul>";
         html += "Informações e inscrições: " + this.getRegistration();
@@ -50,8 +53,10 @@ function Event(data){
         var local = [];
         if (typeof this.local.url !== 'undefined') {
             local.push('<a href="'+ this.local.url +'">'+ this.local.name +'</a>');
-        }else{
+        }else if(typeof this.local.name !== 'undefined'){
             local.push(this.local.name);
+        }else{
+            return this.local.address;
         }
         local.push(this.local.address);
 
@@ -78,8 +83,8 @@ EventList.prototype = new Array();
 
 var eventList = new EventList();
 
-$.getJSON('/events.json', function(data) {
-    //console.log(data);
+$.getJSON('../events.json', function(data) {
+    console.log(data);
     $.each(data.events, function(i, e){
         eventList.push(new Event(e));
     });
@@ -87,7 +92,6 @@ $.getJSON('/events.json', function(data) {
     $(eventList.render()).appendTo('#main_content');
     console.log(eventList.render());
 });
-
 
 
 });

@@ -40,6 +40,70 @@
                 "url": "https://plus.google.com/communities/108495352672468069896/events"
             },
             "technology": ["php"]
+        },
+        {
+            "name": "TDC2013",
+            "date": "July 25, 2013",
+            "local": {
+                "name": "Universidade Anhembi Morumbi",
+                "address": "Rua Casa do Ator, 275 Itaim Bibi, São Paulo - SP"
+            },
+            "tags": ["java", "php", "python", "seo", ".net"],
+            "registration": {
+                "name": "TDC2013",
+                "url": "http://www.thedevelopersconference.com.br/tdc/2013/index.html"
+            }
+        },
+        {
+            "name": "AWS Summit 2013 | São Paulo | Partner Briefing",
+            "date": "July 27, 2013 19:00",
+            "local": {
+                "name": "World Trade Center",
+                "address": "Av. das Nações Unidas, 12551, Brooklin Novo - São Paulo"
+            },
+            "tags": ["amazon", "cloud"],
+            "registration": {
+                "name": "AWS Summit 2013",
+                "url": "http://aws.amazon.com/pt/aws-summit-2013/sao-paulo/partner/"
+            }
+        },
+        {
+            "name": "FrontInSampa 2013 @ Inferno Club",
+            "date": "September 14, 2013 08:00",
+            "local": {
+                "name": "Inferno Club",
+                "url": "http://www.infernoclub.com.br/",
+                "address": "Rua Augusta, 501, São Paulo"
+            },
+            "tags": ["frontend", "html", "css", "javascript"],
+            "registration": {
+                "name": "FrontInSampa 2013",
+                "url": "http://www.frontinsampa.com.br/"
+            }
+        },
+        {
+            "name": "DNAD 2013",
+            "date": "August 02, 2013 9:00",
+            "local": {
+                "name": "Windsor Guanabara Hotel",
+                "address": "Avenida Presidente Vargas, 392 - Centro Rio de Janeiro"
+            },
+            "registration": {
+                "name": "DNAD 2013",
+                "url": "https://www.facebook.com/events/142824762577441/"
+            }
+        },
+        {
+            "name": "YAPC::Brasil 2013 @ Curitiba",
+            "date": "November 15, 2013 8:00",
+            "local": {
+                "address": "Slaviero Full Jazz Hotel, Curitiba - SP"
+            },
+            "registration": {
+                "name": "YAPC::Brasil 2013",
+                "url": "http://2013.yapcbrasil.org.br/pt"
+            },
+            "technology": ["perl"]
         }
     ]
 }
