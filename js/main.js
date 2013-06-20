@@ -89,7 +89,7 @@ $.getJSON('../events.json', function(data) {
         eventList.push(new Event(e));
     });
 
-    $(eventList.render()).appendTo('#main_content');
+    $(eventList.render()).appendTo('#events');
     console.log(eventList.render());
 });
 
